@@ -1,5 +1,5 @@
 const address = window.location.href;
 console.log(address);
 
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket(address);
 console.log(socket);
