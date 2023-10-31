@@ -1,5 +1,5 @@
 """
-ASGI config for netServer project.
+ASGI config for bannyNet project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'netServer.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bannyNet.settings')
 
 application = get_asgi_application()
